@@ -62,6 +62,9 @@ def classify():
 
         image_list = []
         image_path_list = []
+
+        print('Making predictions...')
+        
         for _ in range(0, NUM_OF_IMAGES):
             single_image = sess.run(my_img)
             
